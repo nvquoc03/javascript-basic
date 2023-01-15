@@ -1,1 +1,1 @@
-console.log('Hello world from javascrip')
+alert('Hello world from javascrip')
