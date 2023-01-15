@@ -5,4 +5,8 @@ let a = "John";
 
 
 
-console.log(`Hello "brothers":`, a, x, y == z)
+alert(`Hello Brothers`)
+console.log(x,a,y==z)   
+
+console.log("Test strings",'x =',x,'y =',y)
+console.log("Test strings2",'x=' + 5 + 'y=' + 7)
