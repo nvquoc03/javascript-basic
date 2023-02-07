@@ -9,7 +9,7 @@ let sorter = arr.sort((previousValue,currentValue)=>{ //previousValue là phần
 
 // VD: a = previousValue, b = currentValue 
 //---> a-b<= thì a trước b, a-b>0 thì a sau b
-console.log("Check sort: ",sorter); 
+console.log("Check sort: ",sorter); // Đây là hàm sort sắp xếp các số lớn dần theo giá trị
 
 
 //--------------------Đây là hàm sort thường---------------------------//
