@@ -16,6 +16,13 @@ let mapArr = arr.map((item,index)=>{
 console.log("Check value mapArr: ",mapArr);
 //---> Hàm Map sẽ copy và tạo mảng khác
 
+let reducer = arr.reduce((previousValue,currentValue)=>{    
+    return previousValue + currentValue;
+
+},10) // chỗ số 10 ở đây là tham số khởi tạo - initValue, và có thể quy định kiểu trả về (vd: nếu ở chỗ số 10 có [ ] thì sẽ trả về 1 mảng)
+
+console.log("Check Reducer: ",reducer); //---> Hàm reduce: lấy các giá trị cũ và customize initValue theo tùy thích.
+
 
 
 // Map giống For là đều lặp qua các phần tử.  
