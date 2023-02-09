@@ -27,6 +27,6 @@ let printSum = (message) => {
 
 sum(21,9,printSum);//printSum có thể hiểu là callback ở trên và lấy kết quả là a+b -> xog rồi khai báo ở phần message
 
-//Callback: gọi lại sau. để xử lý bất đồng bộ
+//Callback: gọi lại sau. để xử lý bất đồng bộ. Nếu trong 1 function-hàm có 1 function khác thì hàm ở bên trong đó đc gọi là callback
 //SetTimeOut: thời gian chờ để thực hiện code
 //SetInterval: khoảng thời gian. giống settimeout nhưng lặp vô hạn
