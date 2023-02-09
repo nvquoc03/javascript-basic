@@ -27,4 +27,4 @@ console.log("Check Reducer: ",reducer); //---> Hàm reduce: lấy các giá tr�
 
 // Map giống For là đều lặp qua các phần tử.  
 // Tuy nhiên Map sẽ copy mảng ban đầu và tạo ra mảng mới (k ảnh hưởng đến dữ liệu mảng cũ)->Thao tác mà k cần quan tâm mảng ban đầu như thế nào
-// Hàm For thay đổi dữ liệu, mang copy và tạo mảng mới 
+// Hàm For thay đổi dữ liệu, hàm map copy và tạo mảng mới 
