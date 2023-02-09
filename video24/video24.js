@@ -8,7 +8,7 @@ let sorter = arr.sort((previousValue,currentValue)=>{ //previousValue là phần
 // nếu a>0 -> b trước a ... nếu a<0 -> a trước b =>> Dùng để xác định xem số vào là previous và số nào là current, xog đó mới tính a-b (Không chắc chắn, chỉ là suy luận cá nhân, nên bám theo bài cũ)
 
 // VD: a = previousValue, b = currentValue 
-//---> a-b<= thì a trước b, a-b>0 thì a sau b
+//---> a-b<0 thì a trước b, a-b>0 thì a sau b
 console.log("Check sort: ",sorter); // Đây là hàm sort sắp xếp các số lớn dần theo giá trị
 
 
